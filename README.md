@@ -8,6 +8,7 @@ It can measure Temperature, humidity and atmospheric pressure and send this data
 #  And Humidity.
 </br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HUM.jpg" width="500"/>
 # It can send this data to the server --> <a href="https://sensorsapp.000webhostapp.com/">IoT Website Link</a>
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/Sensorsapp_Website.jpg" width="1000"/>
 # It also can measure your heart-beat also.
 ![Pulse-Sensor](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/PULSE_SENSOR.jpg)
 # Connect this to ESP32 then measure heart-beat.
@@ -26,4 +27,5 @@ It can measure Temperature, humidity and atmospheric pressure and send this data
 # You can change the settings from here.
 </br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/SETTINGS.jpg" width="500"/>
 <img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/IN_SETTINGS.jpg" width="500"/>
-<img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/SETTINGS_WEB_PAGE.jpg" width="500"/>
+# Settings Page.
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/SETTINGS_WEB_PAGE.jpg" width="500"/>
