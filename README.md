@@ -13,7 +13,7 @@ It can measure Temperature, humidity and atmospheric pressure and send this data
 # Connect this to ESP32 then measure heart-beat.
 ![Pulse-Sensor](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/PULSE_SENSOR.jpg)
 # Measuring Your Heart-Beat.
-</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HEART_BEAT_SENSOR.jpg" width="500"/>
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HEART_BEAT_MEASURE.jpg" width="500"/>
 # Also have a Compass.
 # First Calibrate the Compass then it can show reading.
 </br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/COMPASS_CALIBRATE.jpg" width="500"/>
