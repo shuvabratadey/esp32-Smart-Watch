@@ -1,29 +1,29 @@
 # Esp32-Smart-Watch
 This is one of the best projects which I made. This is not only a tft lcd based smart watch, 
 it is also an IoT device. 
-It can measure Temperature, humidity and atmospheric pressure and send this data to the server. 
-![Clock Image](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/CLOCK.jpg)
+It can measure Temperature, humidity and atmospheric pressure and send this data to the server.
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/CLOCK.jpg" width="500"/>
 # It can also measure Temperature, Atmospheric Pressure.
-![Temp-pre](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/TEMP_AND_PRE.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/TEMP_AND_PRE.jpg" width="500"/>
 #  And Humidity.
-![Hum](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HUM.jpg)
-# It can send this data to the server --> http://sensorsproject.000webhostapp.com/
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HUM.jpg" width="500"/>
+# It can send this data to the server --> <a href="https://sensorsapp.000webhostapp.com/">IoT Website Link</a>
 # It also can measure your heart-beat also.
-![Pulse-Sensor](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/PULSE_SENSOR.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/PULSE_SENSOR.jpg" width="500"/>
 # Connect this to ESP32 then measure heart-beat.
-![Heart-Beat-Measure](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HEART_BEAT_MEASURE.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HEART_BEAT_MEASURE.jpg" width="500"/>
 # Measuring Your Heart-Beat.
-![Heart-Beat-Sensor](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HEART_BEAT_SENSOR.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HEART_BEAT_SENSOR.jpg" width="500"/>
 # Also have a Compass.
 # First Calibrate the Compass then it can show reading.
-![Calibrate-Compass](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/COMPASS_CALIBRATE.jpg)
-![Compass](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/COMPASS.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/COMPASS_CALIBRATE.jpg" width="500"/>
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/COMPASS.jpg" width="500"/>
 # It can show the current date also.
-![Calender](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/CALENDER.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/CALENDER.jpg" width="500"/>
 # Other Photos
-![ESP32](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/ESP32.jpg)
-![BME280](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/BME280.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/ESP32.jpg" width="500"/>
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/BME280.jpg" width="500"/>
 # You can change the settings from here.
-![Settings](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/SETTINGS.jpg)
-![In-Settings](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/IN_SETTINGS.jpg)
-![Settings-Web-Page](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/SETTINGS_WEB_PAGE.jpg)
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/SETTINGS.jpg" width="500"/>
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/IN_SETTINGS.jpg" width="500"/>
+</br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/SETTINGS_WEB_PAGE.jpg" width="500"/>
