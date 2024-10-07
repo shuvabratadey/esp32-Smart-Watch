@@ -5,7 +5,7 @@ This is one of the best projects which I have made. This is not only an ESP32 ba
 </br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/TEMP_AND_PRE.jpg" width="400"/>
 #  And Humidity
 </br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/HUM.jpg" width="400"/>
-# It can send this data to the server --> <a href="https://sensorsapp.000webhostapp.com/">IoT Website Link</a>
+# It can send this data to the server --> <a href="http://sensorsproject.rf.gd/">IoT Website Link</a>
 </br><img src="https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/Sensorsapp_Website.jpg" width="1000"/>
 # It also can measure your heart-beat also
 ![Pulse-Sensor](https://github.com/shuvabratadey/esp32-Smart-Watch/blob/main/pictures/PULSE_SENSOR.jpg)
