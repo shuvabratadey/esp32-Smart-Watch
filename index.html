@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESP32 Smart Watch | Embedded Systems & IoT Project</title>
+
+<style>
+    body {
+        font-family: "Segoe UI", Roboto, sans-serif;
+        margin: 0;
+        background: #eef2f7;
+        color: #1e293b;
+    }
+
+    header {
+        background: linear-gradient(135deg, #0f172a, #1e3a8a);
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+
+    header p {
+        opacity: 0.9;
+        margin-top: 10px;
+    }
+
+    section {
+        max-width: 1100px;
+        margin: 30px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+        border-left: 5px solid #2563eb;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        line-height: 1.7;
+        color: #475569;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    .grid img {
+        width: 400px;
+    }
+
+    .highlight {
+        background: #eff6ff;
+        padding: 15px;
+        border-left: 4px solid #2563eb;
+        margin-top: 15px;
+        border-radius: 8px;
+    }
+
+    a {
+        color: #2563eb;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: #0f172a;
+        color: white;
+        margin-top: 40px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ESP32 Smart Watch</h1>
+    <p>Advanced Embedded Systems & IoT Integrated Wearable Device</p>
+</header>
+
+<section>
+    <h2>Project Overview</h2>
+    <p>
+        This project is a fully functional smart watch built using the ESP32 microcontroller.
+        It is designed not only as a wearable device but as a comprehensive platform for learning 
+        embedded systems, real-time data acquisition, and IoT communication.
+    </p>
+
+    <div class="highlight">
+        <b>Key Objective:</b> Build a compact, multi-sensor embedded system capable of real-time monitoring,
+        wireless data transmission, and user interaction.
+    </div>
+
+    <p>
+        The system integrates multiple sensors, a display interface, wireless connectivity,
+        and a backend server to demonstrate end-to-end IoT architecture.
+    </p>
+
+    <img src="pictures/CLOCK.jpg" width="500px">
+</section>
+
+<section>
+    <h2>Environmental Monitoring (Temperature & Pressure)</h2>
+    <p>
+        The device uses environmental sensors (such as BME280) to measure temperature and atmospheric pressure.
+        These measurements are essential for applications like weather monitoring and altitude estimation.
+    </p>
+
+    <div class="highlight">
+        <b>Engineering Insight:</b> Atmospheric pressure data can be used to estimate altitude changes,
+        making this system extendable for outdoor and navigation-based applications.
+    </div>
+
+    <img src="pictures/TEMP_AND_PRE.jpg" width="500px">
+</section>
+
+<section>
+    <h2>Humidity Sensing</h2>
+    <p>
+        Along with temperature and pressure, the system measures humidity, enabling complete environmental analysis.
+        This makes the device suitable for climate monitoring and smart environment applications.
+    </p>
+
+    <img src="pictures/HUM.jpg" width="500px">
+</section>
+
+<section>
+    <h2>IoT Data Transmission</h2>
+    <p>
+        The ESP32 transmits collected sensor data over WiFi to a remote server.
+        This demonstrates real-time IoT communication and remote monitoring capabilities.
+    </p>
+
+    <div class="highlight">
+        <b>Architecture:</b> Sensor → ESP32 → WiFi → Web Server → User Interface
+    </div>
+
+    <p>
+        Live Data Dashboard: 
+        <a href="http://sensorsproject.rf.gd/" target="_blank">IoT Website Link</a>
+    </p>
+
+    <img src="pictures/Sensorsapp_Website.jpg" width="500px">
+</section>
+
+<section>
+    <h2>Heart Rate Monitoring System</h2>
+    <p>
+        The smart watch integrates a pulse sensor to measure heart rate in real time.
+        This feature transforms the device into a basic health monitoring system.
+    </p>
+
+    <div class="highlight">
+        <b>Working Principle:</b> The pulse sensor detects blood flow variations using light absorption,
+        which are processed by ESP32 to calculate BPM (Beats Per Minute).
+    </div>
+
+    <img src="pictures/PULSE_SENSOR.jpg" width="500px">
+
+    <p><b>Sensor Integration with ESP32:</b></p>
+    <img src="pictures/HEART_BEAT_SENSOR.jpg" width="500px">
+
+    <p><b>Live Measurement Output:</b></p>
+    <img src="pictures/HEART_BEAT_MEASURE.jpg" width="500px">
+
+    <p><b>Android App Visualization:</b></p>
+    <img src="pictures/Heart_Rate_App.jpg" width="500px">
+</section>
+
+<section>
+    <h2>Digital Compass</h2>
+    <p>
+        The system includes a magnetometer-based digital compass for directional sensing.
+        Proper calibration is required to eliminate magnetic interference and improve accuracy.
+    </p>
+
+    <div class="highlight">
+        <b>Note:</b> Calibration is crucial for accurate heading calculation due to environmental magnetic distortions.
+    </div>
+
+    <div class="grid">
+        <img src="pictures/COMPASS_CALIBRATE.jpg" width="500px">
+        <img src="pictures/COMPASS.jpg" width="500px">
+    </div>
+</section>
+
+<section>
+    <h2>Date & Time Display</h2>
+    <p>
+        The smart watch also functions as a standard timekeeping device by displaying the current date.
+        This feature enhances usability as a daily wearable gadget.
+    </p>
+
+    <img src="pictures/CALENDER.jpg" width="500px">
+</section>
+
+<section>
+    <h2>Hardware Components</h2>
+    <p>
+        The system is built using ESP32 as the main controller along with sensors like BME280.
+        These components enable wireless communication and multi-parameter sensing.
+    </p>
+
+    <div class="highlight">
+        <b>Core Components:</b> ESP32, BME280 Sensor, Pulse Sensor, Display Module
+    </div>
+
+    <div class="grid">
+        <img src="pictures/ESP32.jpg" width="500px">
+        <img src="pictures/BME280.jpg" width="500px">
+    </div>
+</section>
+
+<section>
+    <h2>User Settings Interface</h2>
+    <p>
+        The device includes an onboard settings interface that allows users to configure system parameters.
+        This improves flexibility and usability.
+    </p>
+
+    <div class="grid">
+        <img src="pictures/SETTINGS.jpg" width="500px">
+        <img src="pictures/IN_SETTINGS.jpg" width="500px">
+    </div>
+</section>
+
+<section>
+    <h2>Web-Based Configuration</h2>
+    <p>
+        In addition to onboard controls, the system provides a web interface for remote configuration.
+        This demonstrates full-stack IoT system design.
+    </p>
+
+    <img src="pictures/SETTINGS_WEB_PAGE.jpg" width="500px">
+</section>
+
+<section>
+    <h2>Internal Circuit Design</h2>
+    <p>
+        The following images show the internal hardware design and circuit implementation of the smart watch.
+        These include sensor connections, power management, and PCB-level integration.
+    </p>
+
+    <div class="grid">
+        <img src="Internal-Circuit/IMG-1.jpg" width="500px">
+        <img src="Internal-Circuit/IMG-2.jpg" width="500px">
+        <img src="Internal-Circuit/IMG-3.jpg" width="500px">
+        <img src="Internal-Circuit/IMG-4.jpg" width="500px">
+        <img src="Internal-Circuit/IMG-5.jpg" width="500px">
+        <img src="Internal-Circuit/IMG-6.jpg" width="500px">
+    </div>
+</section>
+
+<footer>
+    <p>ESP32 Smart Watch Project • Embedded Systems • IoT • Real-Time Monitoring</p>
+</footer>
+
+</body>
+</html>
